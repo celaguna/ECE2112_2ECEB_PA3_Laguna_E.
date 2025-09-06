@@ -28,8 +28,8 @@ Each section includes the actual code with line-by-line explanations inside the 
 3. [Problem 1](#problem-1)  
 4. [Problem 2](#problem-2)  
 5. [Conclusion](#-conclusion)
-6. [Programming Assignment 3 (Problem 1) .py file]()
-7. [Programming Assignment 3 (Problem 2) .py file]()
+6. [Programming Assignment 3 (Problem 1) .py file](Laguna_Pandas-P1.py)
+7. [Programming Assignment 3 (Problem 2) .py file](Laguna_Pandas-P2.py)
 
 ---
 
