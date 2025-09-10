@@ -83,6 +83,11 @@ cars = pd.concat([cars.head(), cars.tail()])
 ```python
 cars
 ```
+**Step 5: Convert .ipnyb to .py**
+
+```python
+!jupyter nbconvert --to script "PA3.1.ipynb"
+```
 
 ## Takeaways
 1. import pandas as pd allows us to use pandas for data analysis with an easy alias.
@@ -215,6 +220,11 @@ cyl_gear_info = cars.loc[cars['Model'].isin(selected_models), ['Model', 'cyl', '
 
 ```python
 cyl_gear_info
+```
+**Step 5: Convert .ipnyb to .py**
+
+```python
+!jupyter nbconvert --to script "PA3.1.ipynb"
 ```
 
 ## Takeaways
