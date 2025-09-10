@@ -53,6 +53,9 @@ cars = pd.concat([cars.head(), cars.tail()])
 
 # Display the resulting DataFrame
 cars
+
+# Convert .ipynb file to .py file
+!jupyter nbconvert --to script "Laguna_Pandas-P1.ipynb"
 ```
 
 **Step 1: Import the pandas library**
@@ -83,10 +86,10 @@ cars = pd.concat([cars.head(), cars.tail()])
 ```python
 cars
 ```
-**Step 5: Convert .ipnyb to .py**
+**Step 5: Convert .ipynb file to .py file**
 
 ```python
-!jupyter nbconvert --to script "PA3.1.ipynb"
+!jupyter nbconvert --to script "Laguna_Pandas-P1.ipynb"
 ```
 
 ## Takeaways
@@ -142,6 +145,9 @@ cyl_gear_info = cars.loc[cars['Model'].isin(selected_models), ['Model', 'cyl', '
 
 # Display the DataFrame with cylinders and gear type for the selected models
 cyl_gear_info
+
+# Convert .ipynb file to .py file
+!jupyter nbconvert --to script "Laguna_Pandas-P2.ipynb"
 ```
 
 **Step 1: Import the pandas library**
@@ -221,10 +227,10 @@ cyl_gear_info = cars.loc[cars['Model'].isin(selected_models), ['Model', 'cyl', '
 ```python
 cyl_gear_info
 ```
-**Step 5: Convert .ipnyb to .py**
+**Step 12: Convert .ipynb file to .py file**
 
 ```python
-!jupyter nbconvert --to script "PA3.1.ipynb"
+!jupyter nbconvert --to script "Laguna_Pandas-P2.ipynb"
 ```
 
 ## Takeaways
